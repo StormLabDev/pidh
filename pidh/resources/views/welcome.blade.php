@@ -288,12 +288,15 @@
         <p class="u-small-text u-text u-text-variant u-text-1">
           <span style="font-size: 1.25rem; font-weight: 700;">Copyright pidh-humanrights.org</span>
           <br>
-          <br>Vietata la copia e la riproduzione dei contenuti del sito<br>Il est interdit de copier et reproduire le contenu de ce site, ce site est la propriété de Massimo Pultrone, ambassadeur itinérant et secrétaire d'état aux droits de l'homme de la PIDH.<br>
-          <br>It is forbidden to copy and reproduce the contents of this website, this site is owned by Massimo Pultrone, itinerant ambassador and secretary of state for human rights of the PIDH.<br>
-          <br>يحظر نسخ ونسخ محتويات هذا الموقع ، هذا الموقع مملوك لماسيمو بولتروني ، السفير المتجول ووزير الدولة لحقوق الإنسان في PIDH<br>
+          <br>Vietata la copia e la riproduzione dei contenuti del sito. Pagina ufficiale della segreteria dei diritti umani del parlmaneto internazionale , ufficio del ambasciatore , Massimo Pultrone PIDH<br>
+          <br>La copie et la reproduction du contenu du site sont interdites. Page officielle du secrétariat aux droits de l'homme du parlement international, bureau de l'ambassadeur, Massimo Pultrone PIDH<br>
+          <br>The copying and reproduction of the contents of the site is prohibited. Official page of the human rights secretariat of the international parliament, office of the ambassador, Massimo Pultrone PIDH<br>
+          <br>Queda prohibida la copia y reproducción de los contenidos del sitio. Página oficial de la secretaría de derechos humanos del parlamento internacional, oficina del embajador, Massimo Pultrone PIDH<br>
+          <br>ييحظر نسخ واستنساخ محتويات الموقع. الصفحة الرسمية لأمانة حقوق الإنسان بالبرلمان الدولي ، مكتب السفير ماسيمو بولتروني PIDH<br>
           <br>
         </p>
-      </div></footer>
+      </div>
+    </footer>
 <span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; background-image: none; right: 20px; bottom: 20px" class="u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-1-base u-spacing-15" data-href="#">
         <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 551.13 551.13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d98"></use></svg>
         <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
