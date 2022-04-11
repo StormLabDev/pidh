@@ -91,11 +91,11 @@
                 <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
                   <div class="u-inner-container-layout u-sidenav-overflow">
                     <div class="u-menu-close"></div>
-                    <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/">{ __('Page accueil') }}</a>
+                    <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/">{{ __('Page accueil') }}</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/correspondance">{{ __('Correspondance étrangère') }}</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/galerie">'{{ __('Galerie') }}</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/galerie">{{ __('Galerie') }}</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/declaration">{{ __('Déclaration universelle') }}</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/contacter">'{{ __('Contacter') }}</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/contacter">{{ __('Contacter') }}</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/nouvelles">{{ __('Nouvelles du monde') }}</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/corps">{{ __('Corps Diplomatique') }}</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/presentation">{{ __('Présentation') }}</a>

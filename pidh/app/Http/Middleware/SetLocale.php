@@ -16,7 +16,13 @@ class SetLocale
      */
     public function handle(Request $request, Closure $next)
     {
-        app()->setLocale($request->locale);
+        
+        if (file_exists(resource_path("lang/$request->locale.json"))) {
+            app()->setLocale($request->locale);
+         }else{
+            app()->setLocale('fr');
+         }
+        
         return $next($request);
     }
 }

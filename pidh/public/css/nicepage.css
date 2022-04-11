@@ -38150,7 +38150,6 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-repeater-1 {
-  min-height: 46px;
   grid-template-columns: 25% 25% 25% 25%;
   grid-gap: 0px 0px;
 }
@@ -38265,9 +38264,31 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 225px;
   }
 
+  .u-header .u-list-1 {
+    width: 88px;
+    margin-top: -71px;
+    margin-bottom: 18px;
+  }
+
   .u-header .u-repeater-1 {
-    min-height: 138px;
     grid-template-columns: 50% 50%;
+    min-height: 68px;
+  }
+
+  .u-header .u-container-layout-1 {
+    padding-bottom: 6px;
+  }
+
+  .u-header .u-container-layout-2 {
+    padding-bottom: 6px;
+  }
+
+  .u-header .u-container-layout-3 {
+    padding-bottom: 6px;
+  }
+
+  .u-header .u-container-layout-4 {
+    padding-bottom: 6px;
   }
 }
 @media (max-width: 991px) {
@@ -38280,16 +38301,41 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 193px;
+  }
+
   .u-header .u-image-3 {
     margin-left: 131px;
   }
 
   .u-header .u-list-1 {
-    margin-top: 20px;
+    width: 192px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-bottom: 27px;
   }
 
   .u-header .u-repeater-1 {
-    grid-template-columns: 100%;
+    min-height: 41px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-columns: 25%;
+  }
+
+  .u-header .u-image-4 {
+    margin-top: 3px;
+  }
+
+  .u-header .u-image-5 {
+    margin-top: 3px;
+  }
+
+  .u-header .u-image-6 {
+    margin-top: 3px;
+  }
+
+  .u-header .u-image-7 {
+    margin-top: 3px;
   }
 }
 @media (max-width: 767px) {
@@ -38299,7 +38345,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 167px;
+    min-height: 186px;
   }
 
   .u-header .u-image-3 {
@@ -38307,15 +38353,15 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-list-1 {
-    margin-bottom: 9px;
+    margin-bottom: 2px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
   .u-header .u-repeater-1 {
-    min-height: 48px;
-    grid-template-columns: 25% 25% 25% 25%;
+    min-height: 59px;
+    grid-auto-columns: 50%;
   }
 
   .u-header .u-image-4 {

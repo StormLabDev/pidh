@@ -28,8 +28,8 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode"><header class=" u-clearfix u-header u-section-row-container" id="sec-a62b"><div class="u-section-rows">
-        <div class="u-section-row u-section-row-1" id="sec-71fa">
-          <div class="u-clearfix u-sheet u-sheet-1">
+    <div class="u-section-row u-section-row-1" id="sec-71fa">
+          <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
             <a href="/{{ Config::get('app.locale') }}/" data-page-id="38434623" class="u-image u-logo u-image-1" data-image-width="127" data-image-height="149" title="Page accueil">
               <img src="{{ URL::asset('images/stemmapidh-23-1920w.webp') }}" class="u-logo-image u-logo-image-1" data-image-width="80">
             </a>
@@ -65,7 +65,8 @@
           
           
           
-        </div>
+    </div>
+     
         <div class="u-palette-1-base u-section-row u-sticky u-section-row-2" id="sec-13b1">
           <div class="u-clearfix u-sheet u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-2">
             <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="MD">
@@ -99,7 +100,7 @@
                     </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/contacter">{{ __('Contacter') }}</a>
                     </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/nouvelles">{{ __('Nouvelles du monde') }}</a>
                     </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/corps">{{ __('Corps Diplomatique') }}</a>
-                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/presentation">{{ __('Présentation') }}') }}</a>
+                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/presentation">{{ __('Présentation') }}')</a>
                     </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/decret">{{ __('Décret de nomination') }}</a>
                     </li></ul>
                   </div>
@@ -197,14 +198,13 @@
           <div class="u-layout">
             <div class="u-layout-row">
               <div class="u-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-1">
-                <div class="u-container-layout u-valign-bottom-sm u-valign-middle-lg u-valign-middle-xl u-container-layout-1">
-                  <img class="u-image u-image-contain u-image-default u-image-1" src="{{ URL::asset('images/hghg.png') }}" alt="" data-image-width="600" data-image-height="782">
-                  <img class="u-image u-image-round u-radius-20 u-image-2" src="{{ URL::asset('images/4528135.jpg') }}" alt="" data-image-width="2000" data-image-height="2000">
+                <div class="u-container-layout u-valign-bottom-sm u-container-layout-1">
+                  <img class="u-image u-image-round u-radius-20 u-image-1" src="{{ URL::asset('images/4528135.jpg') }}" alt="" data-image-width="2000" data-image-height="2000">
                 </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
-                  <h2 class="u-text u-text-1">{{ __('Home1') }} </h2>
+                  <h2 class="u-text u-text-1"> {{ __('Home1') }}</h2>
                 </div>
               </div>
             </div>
