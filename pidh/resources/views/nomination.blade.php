@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Décret de nomination">
     <title>Décret de nomination</title>
-    <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
-    <link rel="stylesheet" href="{{ URL::asset('css/Décret-de-nomination.css') }}" media="screen">
-    <script class="u-script" type="text/javascript" src="{{ URL::asset('js/jquery.js') }}" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{{ URL::asset('js/nicepage.js') }}" defer=""></script>
+    <link rel="stylesheet" href="{{ URL::asset('public/css/nicepage.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ URL::asset('public/css/Décret-de-nomination.css') }}" media="screen">
+    <script class="u-script" type="text/javascript" src="{{ URL::asset('public/js/jquery.js') }}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{ URL::asset('public/js/nicepage.js') }}" defer=""></script>
     <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
@@ -94,7 +94,7 @@
         <div class="u-gallery-inner u-gallery-inner-1">
           <div class="u-effect-fade u-gallery-item" data-image-width="726" data-image-height="1024">
             <div class="u-back-slide">
-              <img class="u-back-image u-expanded" src="{{ URL::asset('images/pidh-11024_1-1920w.webp') }}">
+              <img class="u-back-image u-expanded" src="{{ URL::asset('public/images/pidh-11024_1-1920w.webp') }}">
             </div>
             <div class="u-over-slide u-shading u-over-slide-1">
               <h3 class="u-gallery-heading"></h3>
@@ -103,7 +103,7 @@
           </div>
           <div class="u-effect-fade u-gallery-item" data-image-width="1656" data-image-height="2337">
             <div class="u-back-slide">
-              <img class="u-back-image u-expanded" src="../images/pidh-2_Page_1-1920w.webp">
+              <img class="u-back-image u-expanded" src="public/images/pidh-2_Page_1-1920w.webp">
             </div>
             <div class="u-over-slide u-shading u-over-slide-2">
               <h3 class="u-gallery-heading"></h3>
@@ -112,7 +112,7 @@
           </div>
           <div class="u-effect-fade u-gallery-item" data-image-width="1656" data-image-height="2337">
             <div class="u-back-slide">
-              <img class="u-back-image u-expanded" src="../images/pidh-3_Page_1-a77110cc-1920w.webp">
+              <img class="u-back-image u-expanded" src="public/images/pidh-3_Page_1-a77110cc-1920w.webp">
             </div>
             <div class="u-over-slide u-shading u-over-slide-3">
               <h3 class="u-gallery-heading"></h3>
@@ -121,7 +121,7 @@
           </div>
           <div class="u-effect-fade u-gallery-item" data-image-width="1656" data-image-height="2337">
             <div class="u-back-slide">
-              <img class="u-back-image u-expanded" src="../images/pidh-4_Page_1-1920w.webp">
+              <img class="u-back-image u-expanded" src="public/images/pidh-4_Page_1-1920w.webp">
             </div>
             <div class="u-over-slide u-shading u-over-slide-4">
               <h3 class="u-gallery-heading"></h3>
@@ -130,7 +130,7 @@
           </div>
           <div class="u-effect-fade u-gallery-item" data-image-width="1656" data-image-height="2337">
             <div class="u-back-slide">
-              <img class="u-back-image u-expanded" src="../images/pidh-5_Page_1-1920w.webp">
+              <img class="u-back-image u-expanded" src="public/images/pidh-5_Page_1-1920w.webp">
             </div>
             <div class="u-over-slide u-shading u-over-slide-5">
               <h3 class="u-gallery-heading"></h3>
