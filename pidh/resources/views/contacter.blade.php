@@ -32,7 +32,7 @@
   <body class="u-body u-xl-mode"><header class=" u-clearfix u-header u-section-row-container" id="sec-a62b"><div class="u-section-rows">
         <div class="u-section-row u-section-row-1" id="sec-71fa">
           <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="Page-accueil.html" data-page-id="38434623" class="u-image u-logo u-image-1" data-image-width="127" data-image-height="149" title="Page accueil">
+            <a href="/" data-page-id="38434623" class="u-image u-logo u-image-1" data-image-width="127" data-image-height="149" title="Page accueil">
               <img src="images/stemmapidh-23-1920w.webp" class="u-logo-image u-logo-image-1" data-image-width="80">
             </a>
             <img class="u-image u-image-default u-image-2" src="images/pngegg.png" alt="" data-image-width="1243" data-image-height="1024">
