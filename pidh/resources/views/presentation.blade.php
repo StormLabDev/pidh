@@ -10,7 +10,7 @@
     <title>Présentation</title>
 
     <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
-<link rel="stylesheet" href="{{ URL::asset('css/Presentation.css') }}}" media="screen">
+<link rel="stylesheet" href="{{ URL::asset('css/Presentation.css') }}" media="screen">
 
 <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
 <script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
