@@ -3,10 +3,10 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Correspondance étrangère, Corps Diplomatique, ​Nous Contacter, Décret de nomination, Nouvelles du monde">
+    <meta name="keywords" content="Correspondance étrangère,Corps Diplomatique, ​Nous Contacter, Décret de nomination,Nouvelles du monde">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Page accueil</title>
+    <title>{{ __('Page accueil') }}</title>
     <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
     <link rel="stylesheet" href="{{ URL::asset('css/Page-accueil.css') }}" media="screen">
 
@@ -24,17 +24,41 @@
 		"logo": "images/stemmapidh-23-1920w.webp"
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Page accueil">
+    <meta property="og:title" content="{{ __('Page accueil') }}">
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode"><header class=" u-clearfix u-header u-section-row-container" id="sec-a62b"><div class="u-section-rows">
         <div class="u-section-row u-section-row-1" id="sec-71fa">
           <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="/" data-page-id="38434623" class="u-image u-logo u-image-1" data-image-width="127" data-image-height="149" title="Page accueil">
-              <img src="images/stemmapidh-23-1920w.webp" class="u-logo-image u-logo-image-1" data-image-width="80">
+            <a href="/{{ Config::get('app.locale') }}/" data-page-id="38434623" class="u-image u-logo u-image-1" data-image-width="127" data-image-height="149" title="Page accueil">
+              <img src="{{ URL::asset('images/stemmapidh-23-1920w.webp') }}" class="u-logo-image u-logo-image-1" data-image-width="80">
             </a>
-            <img class="u-image u-image-default u-image-2" src="images/pngegg.png" alt="" data-image-width="1243" data-image-height="1024">
-            <img class="u-image u-image-default u-preserve-proportions u-image-3" src="images/un_PNG20.png" alt="" data-image-width="1600" data-image-height="1600">
+            <img class="u-image u-image-default u-image-2" src="{{ URL::asset('images/pngegg.png') }}" alt="" data-image-width="1243" data-image-height="1024">
+            <img class="u-image u-image-default u-preserve-proportions u-image-3" src="{{ URL::asset('images/un_PNG20.png') }}" alt="" data-image-width="1600" data-image-height="1600">
+            <div class="u-expanded-width-xs u-list u-list-1">
+              <div class="u-repeater u-repeater-1">
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-1">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-4" src="{{ URL::asset('images/197560.png') }}" alt="" data-image-width="128" data-image-height="128" data-href="{{ route('welcome','fr') }}">
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-2">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-5" src="{{ URL::asset('images/saudi-arabia-flag-round-icon-256.png') }}" alt="" data-image-width="256" data-image-height="256" data-href="{{ route('welcome','ar') }}">
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-3">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-6" src="{{ URL::asset('images/kisspng-flag-of-spain-clip-art-vector-graphics-spain-flag-png-5b875871e27dc2.7026162615355966579277.png') }}" alt="" data-image-width="512" data-image-height="512" data-href="{{ route('welcome','es') }}">
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-4">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-7" src="{{ URL::asset('images/512px-United-kingdom_flag_icon_round.svg.png') }}" alt="" data-image-width="512" data-image-height="512" data-href="{{ route('welcome','en') }}">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           
           
@@ -53,31 +77,31 @@
                 </a>
               </div>
               <div class="u-custom-menu u-nav-container">
-                <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/" style="padding: 28px 6px;">Page accueil</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/correspondance" style="padding: 28px 6px;">Correspondance étrangère</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/galerie" style="padding: 28px 6px;">Galerie</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/declaration" style="padding: 28px 6px;">Déclaration universelle</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/contacter" style="padding: 28px 6px;">Contacter</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/nouvelles" style="padding: 28px 6px;">Nouvelles du monde</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/corps" style="padding: 28px 6px;">Corps Diplomatique</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/presentation" style="padding: 28px 6px;">Présentation</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/decret" style="padding: 28px 19px 28px 6px;">Décret de nomination</a>
+                <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/" style="padding: 28px 6px;font-size:12px!important;">{{ __('Page accueil') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/correspondance" style="padding: 28px 6px;font-size:12px!important;">{{ __('Correspondance étrangère') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/galerie" style="padding: 28px 6px;font-size:12px!important;">{{ __('Galerie') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/declaration" style="padding: 28px 6px;font-size:12px!important;">{{ __('Déclaration universelle') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/contacter" style="padding: 28px 6px;font-size:12px!important;">{{ __('Contacter') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/nouvelles" style="padding: 28px 6px;font-size:12px!important;">{{ __('Nouvelles du monde') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/corps" style="padding: 28px 6px;font-size:12px!important;">{{ __('Corps Diplomatique') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/presentation" style="padding: 28px 6px;font-size:12px!important;">{{ __('Présentation') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/decret" style="padding: 28px 19px 28px 6px;font-size:12px!important;">{{ __('Décret de nomination') }}</a>
 </li></ul>
               </div>
               <div class="u-custom-menu u-nav-container-collapse">
                 <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
                   <div class="u-inner-container-layout u-sidenav-overflow">
                     <div class="u-menu-close"></div>
-                    <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/">Page accueil</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/correspondance">Correspondance étrangère</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/galerie">Galerie</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/declaration">Déclaration universelle</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/contacter">Contacter</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/nouvelles">Nouvelles du monde</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/corps">Corps Diplomatique</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/presentation">Présentation</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/decret">Décret de nomination</a>
-</li></ul>
+                    <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/">{{ __('Page accueil') }}</a>
+                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/correspondance">{{ __('Correspondance étrangère') }}</a>
+                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/galerie">{{ __('Galerie') }} </a>
+                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/declaration">{{ __('Déclaration universelle') }}</a>
+                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/contacter">{{ __('Contacter') }}</a>
+                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/nouvelles">{{ __('Nouvelles du monde') }}</a>
+                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/corps">{{ __('Corps Diplomatique') }}</a>
+                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/presentation">{{ __('Présentation') }}') }}</a>
+                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/decret">{{ __('Décret de nomination') }}</a>
+                    </li></ul>
                   </div>
                 </div>
                 <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
@@ -137,7 +161,7 @@
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-container-style u-group u-group-1">
           <div class="u-container-layout u-container-layout-1"><span class="u-icon u-icon-circle u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.294 409.294" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6c4a"></use></svg><svg class="u-svg-content" viewBox="0 0 409.294 409.294" id="svg-6c4a"><path d="m0 204.647v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941v-58.471c-96.728 0-175.412 78.684-175.412 175.412z"></path><path d="m409.294 87.706v-58.471c-96.728 0-175.412 78.684-175.412 175.412v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941z"></path></svg></span>
-            <p class="u-align-center u-text u-text-body-alt-color u-text-1"> "La liberté ne consiste pas à faire ce qui nous plaît, mais à avoir le droit de faire ce que nous devons."</p><span class="u-icon u-icon-circle u-text-white u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.294 409.294" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-daee"></use></svg><svg class="u-svg-content" viewBox="0 0 409.294 409.294" id="svg-daee"><path d="m0 204.647v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941v-58.471c-96.728 0-175.412 78.684-175.412 175.412z"></path><path d="m409.294 87.706v-58.471c-96.728 0-175.412 78.684-175.412 175.412v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941z"></path></svg></span>
+            <p class="u-align-center u-text u-text-body-alt-color u-text-1"> "{{ __('citHome') }}"</p><span class="u-icon u-icon-circle u-text-white u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 409.294 409.294" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-daee"></use></svg><svg class="u-svg-content" viewBox="0 0 409.294 409.294" id="svg-daee"><path d="m0 204.647v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941v-58.471c-96.728 0-175.412 78.684-175.412 175.412z"></path><path d="m409.294 87.706v-58.471c-96.728 0-175.412 78.684-175.412 175.412v175.412h175.412v-175.412h-116.941c0-64.48 52.461-116.941 116.941-116.941z"></path></svg></span>
           </div>
         </div>
       </div>
@@ -150,7 +174,7 @@
               <div class="u-container-style u-layout-cell u-left-cell u-size-28 u-layout-cell-1">
                 <div class="u-container-layout">
                   <div class="u-align-left u-border-10 u-border-custom-color-5 u-shape u-shape-1"></div>
-                  <img class="u-align-left u-image u-image-1" data-image-width="7000" data-image-height="4667" src="images/diverse-hands-united-community-care-gesture.jpg">
+                  <img class="u-align-left u-image u-image-1" data-image-width="7000" data-image-height="4667" src="{{ URL::asset('images/diverse-hands-united-community-care-gesture.jpg') }}">
                 </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-32 u-layout-cell-2">
@@ -174,13 +198,13 @@
             <div class="u-layout-row">
               <div class="u-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-1">
                 <div class="u-container-layout u-valign-bottom-sm u-valign-middle-lg u-valign-middle-xl u-container-layout-1">
-                  <img class="u-image u-image-contain u-image-default u-image-1" src="images/hghg.png" alt="" data-image-width="600" data-image-height="782">
-                  <img class="u-image u-image-round u-radius-20 u-image-2" src="images/4528135.jpg" alt="" data-image-width="2000" data-image-height="2000">
+                  <img class="u-image u-image-contain u-image-default u-image-1" src="{{ URL::asset('images/hghg.png') }}" alt="" data-image-width="600" data-image-height="782">
+                  <img class="u-image u-image-round u-radius-20 u-image-2" src="{{ URL::asset('images/4528135.jpg') }}" alt="" data-image-width="2000" data-image-height="2000">
                 </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
-                  <h2 class="u-text u-text-1"> Ce que comprennent les droits de l'homme</h2>
+                  <h2 class="u-text u-text-1">{{ __('Home1') }} </h2>
                 </div>
               </div>
             </div>
@@ -191,39 +215,39 @@
     <section class="u-clearfix u-section-6" id="sec-04ff">
       <div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-custom-font u-font-montserrat u-text u-text-1">
-          <span style="font-weight: 700;"> Droits de l'homme: que comprennent-ils ?</span>
-          <br>Faire respecter les droits de l'homme dans le monde est un défi majeur. Leur respect dépend en fin de compte de la bonne volonté de chaque État. Par le biais de diverses initiatives, instruments et institutions, la communauté internationale des États et l'ONU promeuvent les droits de l'homme.<br>
-          <br>Les droits de l'homme sont des droits inaliénables qui appartiennent, sans aucune distinction, à tout individu en raison de sa condition humaine. Ils sont universels et fondamentaux, c'est-à-dire essentiels à la dignité, à la survie et au développement de l'être humain. Les droits de l'homme sont indivisibles et interdépendants.<br>
-          <br>Chaque État doit respecter, protéger et appliquer les droits de l'homme. Il existe trois catégories de droits humains :<br>
+          <span style="font-weight: 700;">{{ __('Home2') }} </span>
+          <br>{{ __('Home3') }}<br>
+          <br>{{ __('Home4') }}<br>
+          <br>{{ __('Home5') }}<br>
           <br>
-          <span style="font-style: italic;">droits civils et politiques,</span>
+          <span style="font-style: italic;">{{ __('Home6') }}</span>
           <br>
-          <span style="font-style: italic;">par exemple le droit à la vie, le droit de réunion et le droit à la liberté de religion;</span>
-          <br>droits économiques,&nbsp;sociaux et culturels,<br>par exemple le droit au travail, à l'éducation et à la sécurité sociale;<br>droits de la "troisième génération",<br>par exemple le droit au développement et à un environnement sain et propre.<br>Outils de politique des droits de l'homme<br>Les outils suivants sont utilisés pour discuter des questions liées aux droits de l'homme et mettre en œuvre la politique connexe :<br>
-          <br>actions diplomatiques, interventions et prises de position publiques :les droits de l'homme sont discutés dans le monde entier lors de réunions bilatérales par le biais d'actions diplomatiques, c'est-à-dire d'interventions d'ambassades. A ces outils s'ajoutent des interventions et des prises de position publiques, notamment dans les instances multilatérales, par exemple dans le cadre de l'Examen Périodique Universel au Conseil des Droits de l'Homme des Nations Unies à Genève ;<br>échanges sur le plan technique:<br>Des échanges techniques à long terme sont également possibles, tels que des missions d'experts, des séminaires, des voyages d'étude, des publications ou des projets de coopération. Ces échanges sont menés avec certains pays partenaires dans le cadre d'un dialogue ou d'un programme structuré dans des domaines particulièrement problématiques (ex. Dialogues et consultations sur les droits de l'homme) ;initiatives diplomatiques.Engagement de la communauté internationale et de l'ONU en faveur des droits de l'hommeLa communauté internationale dispose des instruments juridiques suivants :<br>
-          <br>le renforcement de la Cour européenne des droits de l'homme ;les tribunaux pénaux internationaux de l'ONU pour le Rwanda et l'ex-Yougoslavie ;la Cour pénale internationale ;le Conseil des droits de l'homme des Nations Unies.L'un des objectifs les plus importants de l'ONU est de promouvoir le respect des libertés et droits fondamentaux de tous les individus et peuples. Les organes des Nations Unies chargés de la protection et du développement des droits de l'homme sont le Haut-Commissariat aux droits de l'homme et le Conseil des droits de l'homme, tous deux basés à Genève, ainsi que la Troisième Commission de l'Assemblée générale des Nations Unies à New York.<br>
+          <span style="font-style: italic;">{{ __('Home7') }}</span>
+          <br>{{ __('Home8') }}
+          <br>{{ __('Home9') }}<br>
+          <br>{{ __('Home10') }}<br>
           <br>
-          <span style="font-weight: 700;">Cour européenne des droits de l'homme (en, fr)</span>
+          <span style="font-weight: 700;">{{ __('Home11') }}</span>
           <br>
           <span style="font-weight: 700;">
-            <br>Conseil des droits de l'homme des Nations Unies (fr)
+            <br>{{ __('Home12') }}
           </span>
           <br>
           <span style="font-weight: 700;">
-            <br>Haut Commissariat des Nations Unies pour les Réfugiés (fr)
+            <br>{{ __('Home13') }}
           </span>
           <br>
           <br>
-          <span style="font-weight: 700;">Tribunal pénal international des Nations Unies pour l'ex-Yougoslavie (fr)</span>
+          <span style="font-weight: 700;">{{ __('Home14') }}</span>
           <br>
           <br>
-          <span style="font-weight: 700;">Tribunal pénal international des Nations Unies pour le Rwanda (en, fr)</span>
+          <span style="font-weight: 700;">{{ __('Home15') }}</span>
           <br>
           <br>
-          <span style="font-weight: 700;">Les droits de l'homme aux Nations Unies</span>
+          <span style="font-weight: 700;">{{ __('Home16') }}</span>
           <br>
-          <br>Conventions des Nations Unies sur les droits de l'homme et rapports nationauxAvec neuf conventions au total, l'ONU s'est dotée d'une boîte à outils diversifiée pour protéger les droits de l'homme au niveau international. Contrairement à la Déclaration universelle des droits de l'homme, les conventions de l'ONU lient les États membres et les obligent à respecter les normes relatives aux droits de l'homme.<br>
-          <br>Les principales conventions des Nations unies sur les droits de l'homme prévoient des comités chargés de contrôler le respect des dispositions et une procédure obligatoire de soumission des rapports nationaux. En ratifiant les conventions, les Etats s'engagent à transmettre régulièrement à la commission compétente un rapport gouvernemental sur l'application de la réglementation dans le pays. Le comité évalue les rapports et formule des recommandations.
+          <br>{{ __('Home17') }}<br>
+          <br>{{ __('Home18') }}
         </p>
       </div>
     </section>
@@ -235,13 +259,13 @@
 	c15.3-6.6,33.6-0.4,51.6,0.7c11.2,0.7,28.8-3.8,38.2,0.4s11.8,15.4,9.2,22.8c-1.9,5.4-5.5,11.6-12.8,16.5
 	c-9.3,10.1-4.7,22.9,3.7,33.4c7.8,9.7,17.7,11.7,18.3,23.5C160.4,110.8,157.6,122.2,151.7,132.5L151.7,132.5z"></path></svg>
         </div>
-        <h1 class="u-custom-font u-text u-text-font u-text-palette-3-base u-text-1"> Le droits de l'homme---human rights</h1>
-        <p class="u-text u-text-2"> Nous entendons souvent parler des droits de l'homme, notamment en relation avec les guerres et les conflits dans le monde, mais aussi avec la question des migrants et des demandeurs d'asile.</p>
+        <h1 class="u-custom-font u-text u-text-font u-text-palette-3-base u-text-1">{{ __('Home19') }}</h1>
+        <p class="u-text u-text-2">{{ __('Home20') }} </p>
         <div class="u-expanded-width u-list u-list-1">
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-                <p class="u-text u-text-grey-40 u-text-3"> Les droits de l'homme, ou droits humains, sont une branche du droit désignant un ensemble de droits inaliénables appartenant à chaque être humain sur Terre. Elles ne peuvent pas être outrepassées, ni par aucun individu existant dans le monde, quels que soient son rôle dans la société et son pays d'origine.<br>
+                <p class="u-text u-text-grey-40 u-text-3">{{ __('Home21') }}<br>
                   <br> We often hear about Human Rights, especially in relation to wars and conflicts in the world, but also in relation to the issue of migrants and asylum seekers.<br>
                 </p>
               </div>

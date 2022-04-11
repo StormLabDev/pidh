@@ -3,11 +3,11 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Nouvelles du monde">
+    <meta name="keywords" content="{{ __('Nouvelles du monde') }}">
     <meta name="description" content="">
     <meta name="robots" content="noindex">
 
-    <title>Nouvelles du monde</title>
+    <title>{{ __('Nouvelles du monde') }}</title>
     <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
     <link rel="stylesheet" href="{{ URL::asset('css/Nouvelles-du-monde.css') }}" media="screen">
     <script class="u-script" type="text/javascript" src="{{ URL::asset('js/jquery.js') }}" defer=""></script>
@@ -24,17 +24,40 @@
 		"logo": "images/stemmapidh-23-1920w.webp"
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Nouvelles du monde">
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode"><header class=" u-clearfix u-header u-section-row-container" id="sec-a62b"><div class="u-section-rows">
         <div class="u-section-row u-section-row-1" id="sec-71fa">
           <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="/" data-page-id="38434623" class="u-image u-logo u-image-1" data-image-width="127" data-image-height="149" title="Page accueil">
-              <img src="images/stemmapidh-23-1920w.webp" class="u-logo-image u-logo-image-1" data-image-width="80">
+            <a href="/{{ Config::get('app.locale') }}/" data-page-id="38434623" class="u-image u-logo u-image-1" data-image-width="127" data-image-height="149" title="{{ __('Page accueil') }}">
+              <img src="{{ URL::asset('images/stemmapidh-23-1920w.webp') }}" class="u-logo-image u-logo-image-1" data-image-width="80">
             </a>
-            <img class="u-image u-image-default u-image-2" src="images/pngegg.png" alt="" data-image-width="1243" data-image-height="1024">
-            <img class="u-image u-image-default u-preserve-proportions u-image-3" src="images/un_PNG20.png" alt="" data-image-width="1600" data-image-height="1600">
+            <img class="u-image u-image-default u-image-2" src="{{ URL::asset('images/pngegg.png') }}" alt="" data-image-width="1243" data-image-height="1024">
+            <img class="u-image u-image-default u-preserve-proportions u-image-3" src="{{ URL::asset('images/un_PNG20.png') }}" alt="" data-image-width="1600" data-image-height="1600">
+            <div class="u-expanded-width-xs u-list u-list-1">
+              <div class="u-repeater u-repeater-1">
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-1">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-4" src="{{ URL::asset('images/197560.png') }}" alt="" data-image-width="128" data-image-height="128" data-href="{{ route('nouvelles','fr') }}">
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-2">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-5" src="{{ URL::asset('images/saudi-arabia-flag-round-icon-256.png') }}" alt="" data-image-width="256" data-image-height="256" data-href="{{ route('nouvelles','ar') }}">
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-3">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-6" src="{{ URL::asset('images/kisspng-flag-of-spain-clip-art-vector-graphics-spain-flag-png-5b875871e27dc2.7026162615355966579277.png') }}" alt="" data-image-width="512" data-image-height="512" data-href="{{ route('nouvelles','es') }}">
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-4">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-7" src="{{ URL::asset('images/512px-United-kingdom_flag_icon_round.svg.png') }}" alt="" data-image-width="512" data-image-height="512" data-href="{{ route('nouvelles','en') }}">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           
           
@@ -53,30 +76,30 @@
                 </a>
               </div>
               <div class="u-custom-menu u-nav-container">
-                <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/" style="padding: 28px 6px;">Page accueil</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/correspondance" style="padding: 28px 6px;">Correspondance étrangère</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/galerie" style="padding: 28px 6px;">Galerie</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/declaration" style="padding: 28px 6px;">Déclaration universelle</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/contacter" style="padding: 28px 6px;">Contacter</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/nouvelles" style="padding: 28px 6px;">Nouvelles du monde</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/corps" style="padding: 28px 6px;">Corps Diplomatique</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/presentation" style="padding: 28px 6px;">Présentation</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/decret" style="padding: 28px 19px 28px 6px;">Décret de nomination</a>
+                <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/" style="padding: 28px 6px;font-size:12px!important;">{{ __('Page accueil') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/correspondance" style="padding: 28px 6px;font-size:12px!important;">{{ __('Correspondance étrangère') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/galerie" style="padding: 28px 6px;font-size:12px!important;">{{ __('Galerie') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/declaration" style="padding: 28px 6px;font-size:12px!important;">{{ __('Déclaration universelle') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/contacter" style="padding: 28px 6px;font-size:12px!important;">{{ __('Contacter') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/nouvelles" style="padding: 28px 6px;font-size:12px!important;">{{ __('Nouvelles du monde') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/corps" style="padding: 28px 6px;font-size:12px!important;">{{ __('Corps Diplomatique') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/presentation" style="padding: 28px 6px;font-size:12px!important;">{{ __('Présentation') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/decret" style="padding: 28px 19px 28px 6px;font-size:12px!important;">{{ __('Décret de nomination') }}</a>
 </li></ul>
               </div>
               <div class="u-custom-menu u-nav-container-collapse">
                 <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
                   <div class="u-inner-container-layout u-sidenav-overflow">
                     <div class="u-menu-close"></div>
-                      <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/">Page accueil</a>
-                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/correspondance">Correspondance étrangère</a>
-                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/galerie">Galerie</a>
-                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/declaration">Déclaration universelle</a>
-                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/contacter">Contacter</a>
-                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/nouvelles">Nouvelles du monde</a>
-                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/corps">Corps Diplomatique</a>
-                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/presentation">Présentation</a>
-                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/decret">Décret de nomination</a>
+                      <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/">{{ __('Page accueil') }}</a>
+                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/correspondance">{{ __('Correspondance étrangère') }}</a>
+                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/galerie">{{ __('Galerie') }}</a>
+                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/declaration">{{ __('Déclaration universelle') }}</a>
+                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/contacter">{{ __('Contacter') }}</a>
+                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/nouvelles">{{ __('Nouvelles du monde') }}</a>
+                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/corps">{{ __('Corps Diplomatique') }}</a>
+                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/presentation">{{ __('Présentation') }}</a>
+                      </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/decret">{{ __('Décret de nomination') }}</a>
                       </li></ul>
                   </div>
                 </div>
@@ -93,7 +116,7 @@
       </div></header> 
     <section class="u-align-center u-clearfix u-section-1" id="sec-edf6">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-font-montserrat u-text u-text-default u-title u-text-1">Nouvelles du monde</h1>
+        <h1 class="u-custom-font u-font-montserrat u-text u-text-default u-title u-text-1">{{ __('Nouvelles du monde') }}</h1>
         <div class="u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
             <div class="u-layout-row">
@@ -101,9 +124,9 @@
                 <div class="u-layout-col">
                   <div class="u-align-left u-container-style u-grey-5 u-layout-cell u-right-cell u-size-60 u-layout-cell-1">
                     <div class="u-container-layout u-valign-bottom u-container-layout-1">
-                      <img src="images/guerra-11-1920w.webp" alt="" class="u-expanded-width u-image u-image-default u-image-1" data-image-width="750" data-image-height="430">
-                      <p class="u-text u-text-2"> La guerre est la destruction de l'être humain le dialogue est le meilleur moyen de parvenir à la paix.la guerre n'apporte que pauvreté et destruction, le dialogue conduit à la construction de la paix en accordant à tous les peuples le droit à la vie dans le respect des droits de l'homme.</p>
-                      <img class="u-image u-image-2" src="images/guerra-3-1920w.jpg" data-image-width="300" data-image-height="168">
+                      <img src="{{ URL::asset('images/guerra-11-1920w.webp') }}" alt="" class="u-expanded-width u-image u-image-default u-image-1" data-image-width="750" data-image-height="430">
+                      <p class="u-text u-text-2"> {{ __('Nov1') }} </p>
+                      <img class="u-image u-image-2" src="{{ URL::asset('images/guerra-3-1920w.jpg') }}" data-image-width="300" data-image-height="168">
                     </div>
                   </div>
                 </div>
@@ -114,13 +137,12 @@
                     <div class="u-container-layout">
                       <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-3">
                         <span style="font-size: 1.75rem;">
-                          <span style="font-weight: 700;"> L</span>
-                          <span style="font-weight: 700;">e meilleur moyen de parvenir à la paix est le dialogue et non la guerre</span>
+                          <span style="font-weight: 700;">{{ __('Nov3') }}</span>
                         </span>
                       </h4>
-                      <img class="u-image u-image-default u-image-3" src="images/pace-1920w.jpg" alt="" data-image-width="279" data-image-height="181">
-                      <img class="u-image u-image-default u-image-4" src="images/colori-della-pace.jpg" alt="" data-image-width="640" data-image-height="480">
-                      <img class="u-image u-image-default u-image-5" src="images/fotononnabambino-1920w.jpg" alt="" data-image-width="300" data-image-height="168">
+                      <img class="u-image u-image-default u-image-3" src="{{ URL::asset('images/pace-1920w.jpg') }}" alt="" data-image-width="279" data-image-height="181">
+                      <img class="u-image u-image-default u-image-4" src="{{ URL::asset('images/colori-della-pace.jpg') }}" alt="" data-image-width="640" data-image-height="480">
+                      <img class="u-image u-image-default u-image-5" src="{{ URL::asset('images/fotononnabambino-1920w.jpg') }}" alt="" data-image-width="300" data-image-height="168">
                     </div>
                   </div>
                 </div>
@@ -128,7 +150,42 @@
             </div>
           </div>
         </div>
-        <img class="u-image u-image-default u-image-6" src="images/Vector_2697Convertito1.svg" alt="" data-image-width="1600" data-image-height="889">
+        <img class="u-image u-image-default u-image-6" src="{{ URL::asset('images/Vector_2697Convertito1.svg') }}" alt="" data-image-width="1600" data-image-height="889">
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-2" id="sec-e246">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-show-text-on-hover u-gallery-1">
+          <div class="u-gallery-inner u-gallery-inner-1">
+            <div class="u-effect-fade u-gallery-item">
+              <div class="u-back-slide" data-image-width="1600" data-image-height="1136">
+                <img class="u-back-image u-expanded" src="{{ URL::asset('images/war-953246_1920-41.jpg') }}">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-1">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+              <div class="u-back-slide" data-image-width="1280" data-image-height="720">
+                <img class="u-back-image u-expanded" src="{{ URL::asset('images/barbed-wire-6884984_1280.jpg') }}">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-2">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+            <div class="u-effect-fade u-gallery-item">
+              <div class="u-back-slide" data-image-width="1920" data-image-height="1280">
+                <img class="u-back-image u-expanded" src="{{ URL::asset('images/human-rights-3805188_1920-43.jpg') }}">
+              </div>
+              <div class="u-over-slide u-shading u-over-slide-3">
+                <h3 class="u-gallery-heading"></h3>
+                <p class="u-gallery-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     

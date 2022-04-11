@@ -1,15 +1,10 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("../images/38434623-0.jpeg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("../images/war-953246_1920.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
   min-height: 772px;
-}
-
-.u-section-1 .u-image-1 {
-  width: 640px;
-  height: 424px;
-  margin: -910px auto 60px -188px;
 }
 
 .u-section-1 .u-text-1 {
@@ -65,10 +60,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    background-position: 50% 50%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 839px;
   }
@@ -138,11 +129,11 @@
   }
 
   .u-section-1 .u-text-4 {
-    margin-top: 253px;
+    margin-top: 256px;
   }
 
   .u-section-1 .u-text-5 {
-    margin-top: 93px;
+    margin-top: 91px;
   }
 
   .u-section-1 .u-text-6 {
@@ -162,21 +153,15 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 932px;
-  }
-
-  .u-section-1 .u-image-1 {
-    margin-top: 43px;
-    margin-bottom: 0;
-    margin-left: -183px;
+    min-height: 100vh;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: -71px;
+    margin-top: 73px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-top: 0;
+    margin-top: 16px;
     margin-right: 16px;
   }
 
@@ -185,12 +170,14 @@
   }
 
   .u-section-1 .u-text-4 {
-    margin-top: 2457px;
-    margin-left: 171px;
+    width: 369px;
+    margin-top: 33px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-1 .u-text-5 {
-    margin-top: -2514px;
+    margin-top: 73px;
   }
 
   .u-section-1 .u-text-6 {
@@ -209,12 +196,6 @@
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 531px;
-  }
-
-  .u-section-1 .u-image-1 {
-    width: 340px;
-    height: 225px;
-    margin-left: 0;
   }
 
   .u-section-1 .u-text-1 {
@@ -240,7 +221,8 @@
 
   .u-section-1 .u-text-4 {
     font-size: 1.25rem;
-    margin-top: 46px;
+    width: 340px;
+    margin-top: 178px;
     margin-left: -50px;
     margin-right: -50px;
   }
@@ -369,12 +351,16 @@
 
 @media (max-width: 767px) {
    .u-section-2 {
-    min-height: 1040px;
+    min-height: 1041px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-top: 110px;
   }
 
   .u-section-2 .u-group-1 {
     width: 540px;
-    margin-left: calc(((100% - 540px) / 2));
+    margin-left: auto;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -440,7 +426,8 @@
     margin-left: 98px;
   }
 } .u-section-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("../images/38434623-0-9.jpeg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("../images/human-rights-3805188_1920.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -479,10 +466,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3 {
-    background-position: 50% 50%;
-  }
-
   .u-section-3 .u-sheet-1 {
     min-height: 369px;
   }
@@ -858,8 +841,14 @@
     min-height: 462px;
   }
 
-  .u-section-5 .u-layout-cell-1 {
-    min-height: 474px;
+  .u-section-5 .u-image-1 {
+    width: 311px;
+    height: 316px;
+    margin-right: 0;
+  }
+
+  .u-section-5 .u-image-2 {
+    margin-top: 31px;
   }
 
   .u-section-5 .u-layout-cell-2 {

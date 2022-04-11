@@ -3,17 +3,17 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Follow ME!">
     <meta name="description" content="">
     <meta name="robots" content="noindex">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Présentation</title>
+    <title>{{ __('Présentation') }}</title>
 
     <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
 <link rel="stylesheet" href="{{ URL::asset('css/Presentation.css') }}" media="screen">
 
-<script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
-<script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
+<script class="u-script" type="text/javascript" src="{{ URL::asset('js/jquery.js') }}" defer=""></script>
+<script class="u-script" type="text/javascript" src="{{ URL::asset('js/nicepage.js') }}" defer=""></script>
+    <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     
@@ -28,17 +28,40 @@
 		"logo": "images/stemmapidh-23-1920w.webp"
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Présentation">
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode"><header class=" u-clearfix u-header u-section-row-container" id="sec-a62b"><div class="u-section-rows">
         <div class="u-section-row u-section-row-1" id="sec-71fa">
           <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="/" data-page-id="38434623" class="u-image u-logo u-image-1" data-image-width="127" data-image-height="149" title="Page accueil">
-              <img src="images/stemmapidh-23-1920w.webp" class="u-logo-image u-logo-image-1" data-image-width="80">
+            <a href="/{{ Config::get('app.locale') }}/" data-page-id="38434623" class="u-image u-logo u-image-1" data-image-width="127" data-image-height="149" title="{{ __('Page accueil') }}">
+              <img src="{{ URL::asset('images/stemmapidh-23-1920w.webp') }}" class="u-logo-image u-logo-image-1" data-image-width="80">
             </a>
-            <img class="u-image u-image-default u-image-2" src="images/pngegg.png" alt="" data-image-width="1243" data-image-height="1024">
-            <img class="u-image u-image-default u-preserve-proportions u-image-3" src="images/un_PNG20.png" alt="" data-image-width="1600" data-image-height="1600">
+            <img class="u-image u-image-default u-image-2" src="{{ URL::asset('images/pngegg.png') }}" alt="" data-image-width="1243" data-image-height="1024">
+            <img class="u-image u-image-default u-preserve-proportions u-image-3" src="{{ URL::asset('images/un_PNG20.png') }}" alt="" data-image-width="1600" data-image-height="1600">
+            <div class="u-expanded-width-xs u-list u-list-1">
+              <div class="u-repeater u-repeater-1">
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-1">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-4" src="{{ URL::asset('images/197560.png') }}" alt="" data-image-width="128" data-image-height="128" data-href="{{ route('presentation','fr') }}">
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-2">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-5" src="{{ URL::asset('images/saudi-arabia-flag-round-icon-256.png') }}" alt="" data-image-width="256" data-image-height="256" data-href="{{ route('presentation','ar') }}">
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-3">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-6" src="{{ URL::asset('images/kisspng-flag-of-spain-clip-art-vector-graphics-spain-flag-png-5b875871e27dc2.7026162615355966579277.png') }}" alt="" data-image-width="512" data-image-height="512" data-href="{{ route('presentation','es') }}">
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top-xs u-container-layout-4">
+                    <img class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-preserve-proportions u-image-7" src="{{ URL::asset('images/512px-United-kingdom_flag_icon_round.svg.png') }}" alt="" data-image-width="512" data-image-height="512" data-href="{{ route('presentation','en') }}">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           
           
@@ -57,30 +80,30 @@
                 </a>
               </div>
               <div class="u-custom-menu u-nav-container">
-                <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/" style="padding: 28px 6px;">Page accueil</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/correspondance" style="padding: 28px 6px;">Correspondance étrangère</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/galerie" style="padding: 28px 6px;">Galerie</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/declaration" style="padding: 28px 6px;">Déclaration universelle</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/contacter" style="padding: 28px 6px;">Contacter</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/nouvelles" style="padding: 28px 6px;">Nouvelles du monde</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/corps" style="padding: 28px 6px;">Corps Diplomatique</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/presentation" style="padding: 28px 6px;">Présentation</a>
-</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/decret" style="padding: 28px 19px 28px 6px;">Décret de nomination</a>
+                <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/" style="padding: 28px 6px;font-size:12px!important;">{{ __('Page accueil') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/correspondance" style="padding: 28px 6px;font-size:12px!important;">{{ __('Correspondance étrangère') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/galerie" style="padding: 28px 6px;font-size:12px!important;">{{ __('Galerie') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/declaration" style="padding: 28px 6px;font-size:12px!important;">{{ __('Déclaration universelle') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/contacter" style="padding: 28px 6px;font-size:12px!important;">{{ __('Contacter') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/nouvelles" style="padding: 28px 6px;font-size:12px!important;">{{ __('Nouvelles du monde') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/corps" style="padding: 28px 6px;font-size:12px!important;">{{ __('Corps Diplomatique') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/presentation" style="padding: 28px 6px;font-size:12px!important;">{{ __('Présentation') }}</a>
+</li><li class="u-nav-item"><a class="u-active-custom-color-1 u-button-style u-hover-custom-color-1 u-nav-link u-palette-1-base u-radius-50 u-text-active-white u-text-hover-white u-text-white" href="/{{ Config::get('app.locale') }}/decret" style="padding: 28px 19px 28px 6px;font-size:12px!important;">{{ __('Décret de nomination') }}</a>
 </li></ul>
               </div>
               <div class="u-custom-menu u-nav-container-collapse">
                 <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
                   <div class="u-inner-container-layout u-sidenav-overflow">
                     <div class="u-menu-close"></div>
-                    <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/">Page accueil</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/correspondance">Correspondance étrangère</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/galerie">Galerie</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/declaration">Déclaration universelle</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/contacter">Contacter</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/nouvelles">Nouvelles du monde</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/corps">Corps Diplomatique</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/presentation">Présentation</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/decret">Décret de nomination</a>
+                    <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/">{{ __('Page accueil') }}</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/correspondance">{{ __('Correspondance étrangère') }}</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/galerie">{{ __('Galerie') }}</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/declaration">{{ __('Déclaration universelle') }}</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/contacter">{{ __('Contacter') }}</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/nouvelles">{{ __('Nouvelles du monde') }}</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/corps">{{ __('Corps Diplomatique') }}</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/presentation">{{ __('Présentation') }}</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/decret">{{ __('Décret de nomination') }}</a>
 </li></ul>
                   </div>
                 </div>
@@ -106,15 +129,15 @@
               <div class="u-align-center u-container-style u-layout-cell u-shape-rectangle u-size-20-lg u-size-20-xl u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-2">
                 <div class="u-container-layout u-valign-middle-lg u-container-layout-2">
                   <h4 class="u-custom-font u-font-playfair-display u-text u-text-1">
-                    <span style="font-size: 1.875rem;">S.E. Massimo Pultrone: Ambassadeur itinérant et secrétaire d'État aux droits de l'homme</span>
+                    <span style="font-size: 1.875rem;">S.E. Massimo Pultrone: {{ __('Pres1') }}</span>
                   </h4>
-                  <p class="u-text u-text-2"> Né dans dans la région de Calabria, en Sud Italie, lorsque ma famille a déménagé à Mannheim dans la région de : Baden Wurttemberg, En République Fédérale d'Allemagne.<br>Mon père : employé à l'abattoir d'État comme agent de sécurité<br>ma mère au foyer.<br>ma sœur , infirmière spécialisée à la polyclinique de Mannheim.<br>Mes frères , tous deux employés à l'abattoir d'État de Mannheim.<br>après 10 ans d'avoir atteint une tranquillité d'esprit économique, mon père décide de rapatrier en Italie, où il ouvre un atelier pour la : construction de chaussures à la main.&nbsp;<br>
+                  <p class="u-text u-text-2">{{ __('Pres2') }} &nbsp;<br>
                   </p>
                 </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-shape-rectangle u-size-20-lg u-size-20-xl u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-3">
                 <div class="u-container-layout u-container-layout-3">
-                  <p class="u-text u-text-3"> En l'an 2000 je rejoins le Parlement International pour la Sécurité et la Paix (Président Monseigneur Viktor Busà, en tant que conseiller politique, puis après 2 ans je suis élevé au rang de Conseiller Diplomatique pour les Affaires Africaines, suite au bon travail Diplomate j'ai travaillé comme Diplomate Conseiller pour les affaires africaines, je suis promu au rang de chargé d'affaires pour les pays africains.<br>Mon travail Diplomatique avance très bien d'autant que je suis élevé au rang de Ministre Plénipotentiaire pour l'Afrique après 1 an.<br>Après 3 ans de travail diplomatique intense, je suis promu Ambassadeur extraordinaire et plénipotentiaire pour l'Afrique.&nbsp;
+                  <p class="u-text u-text-3">{{ __('Pres3') }} &nbsp;
                   </p>
                 </div>
               </div>
@@ -125,11 +148,11 @@
     </section>
     <section class="u-clearfix u-section-2" id="sec-0e2e">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-text u-text-1"> En&nbsp; 10/06/2020 je suis nommé au Parlement international des droits de l'homme PIDH : ambassadeur itinérant et secrétaire d'état aux droits de l'homme. Association intergouvernementale reconnue et enregistrée auprès du gouvernement de la République bolivarienne du Venezuela et enregistrée dans le système des Nations Unies<br>
+        <p class="u-text u-text-1">{{ __('Pres4') }} <br>
           <br>
-          <br>Nous sommes intervenus dans certaines questions au secours des citoyens de l'Union européenne, avec de bons succès grâce également au soutien du Département des Affaires étrangères de l'Union européenne,&nbsp; &nbsp;toujours très serviable et toujours attentif à la valeur des droits de l'homme.<br>
+          <br>{{ __('Pres5') }}<br>
           <br>
-          <br>J'ai été membre de plusieurs ordres de chevalerie et j'ai maintenant annulé mon adhésion à tous ces ordres parce que j'ai été trompé et calomnié par ces associations,&nbsp; des associations de faux chevaliers, de faux cardinaux et de faux prêtres qui se qualifiaient de représentants et de délégués officiels pour conférer des titres de chevalier et diverses distinctions honorifiques, qui se sont avérés faux par la suite.<br>C'est pourquoi je n'aime pas et ne veux plus rien avoir à faire avec les ordres de chevalerie ou les distributeurs d'honneurs à l'avenir. même s'il s'agit de véritables ordres de chevalerie ou de véritables honneurs, ce type d'activité ne m'intéresse pas.
+          <br>{{ __('Pres6') }}
         </p>
       </div>
     </section>
@@ -139,7 +162,7 @@
           <div class="u-carousel-inner u-gallery-inner" role="listbox">
             <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
               <div class="u-back-slide" data-image-width="310" data-image-height="163">
-                <img class="u-back-image u-expanded" src="images/fototunisia-2.jpg">
+                <img class="u-back-image u-expanded" src="{{ URL::asset('images/best-time-to-visit-tunisia.jpg') }}">
               </div>
               <div class="u-over-slide u-over-slide-1">
                 <h3 class="u-gallery-heading">Sample Title</h3>
@@ -148,7 +171,7 @@
             </div>
             <div class="u-carousel-item u-gallery-item u-carousel-item-2">
               <div class="u-back-slide" data-image-width="184" data-image-height="274">
-                <img class="u-back-image u-expanded" src="images/fototunisia-3.jpg">
+                <img class="u-back-image u-expanded" src="{{ URL::asset('images/Tunisia-Best-Wallpaper-94106.jpg') }}">
               </div>
               <div class="u-over-slide u-over-slide-2">
                 <h3 class="u-gallery-heading">Sample Title</h3>
@@ -157,7 +180,7 @@
             </div>
             <div class="u-carousel-item u-gallery-item u-carousel-item-3" data-image-width="2836" data-image-height="1875">
               <div class="u-back-slide" data-image-width="385" data-image-height="131">
-                <img class="u-back-image u-expanded" src="images/fotoTunisia-1.jpg">
+                <img class="u-back-image u-expanded" src="{{ URL::asset('images/juan-ordonez-LR-kOGIgts4-unsplash.jpg') }}">
               </div>
               <div class="u-over-slide u-over-slide-3">
                 <h3 class="u-gallery-heading">Sample Title</h3>
@@ -191,13 +214,13 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
           </a>
           <ol class="u-carousel-thumbnails u-spacing-10 u-carousel-thumbnails-1">
             <li class="u-active u-carousel-thumbnail u-carousel-thumbnail-1" data-u-target="#carousel-e131" data-u-slide-to="0">
-              <img class="u-carousel-thumbnail-image u-image" src="images/fototunisia-2.jpg">
+              <img class="u-carousel-thumbnail-image u-image" src="{{ URL::asset('images/best-time-to-visit-tunisia.jpg') }}">
             </li>
             <li class="u-carousel-thumbnail u-carousel-thumbnail-2" data-u-target="#carousel-e131" data-u-slide-to="1">
-              <img class="u-carousel-thumbnail-image u-image" src="images/fototunisia-3.jpg">
+              <img class="u-carousel-thumbnail-image u-image" src="{{ URL::asset('images/Tunisia-Best-Wallpaper-94106.jpg') }}">
             </li>
             <li class="u-carousel-thumbnail u-carousel-thumbnail-3" data-u-target="#carousel-e131" data-u-slide-to="2">
-              <img class="u-carousel-thumbnail-image u-image" src="images/fotoTunisia-1.jpg">
+              <img class="u-carousel-thumbnail-image u-image" src="{{ URL::asset('images/juan-ordonez-LR-kOGIgts4-unsplash.jpg') }}">
             </li>
           </ol>
         </div>
