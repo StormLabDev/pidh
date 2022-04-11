@@ -8,8 +8,8 @@
     <meta name="robots" content="noindex">
 
     <title>Nouvelles du monde</title>
-    <link rel="stylesheet" href="{{ URL::asset('public/css/nicepage.css') }}" media="screen">
-    <link rel="stylesheet" href="{{ URL::asset('public/css/Nouvelles-du-monde.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ URL::asset('css/Nouvelles-du-monde.css') }}" media="screen">
     <script class="u-script" type="text/javascript" src="{{ URL::asset('public/js/jquery.js') }}" defer=""></script>
     <script class="u-script" type="text/javascript" src="{{ URL::asset('public/js/nicepage.js') }}" defer=""></script>
 

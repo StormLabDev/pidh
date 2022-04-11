@@ -9,12 +9,11 @@
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Présentation</title>
 
-    <link rel="stylesheet" href="{{ URL::asset('public/css/nicepage.css') }}" media="screen">
-<link rel="stylesheet" href="{{ URL::asset('public/css/Présentation.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
+<link rel="stylesheet" href="/{{ URL::asset('css/Présentation.css') }}}" media="screen">
 
-<script class="u-script" type="text/javascript" src="{{ URL::asset('public/js/jquery.js') }}" defer=""></script>
-<script class="u-script" type="text/javascript" src="{{ URL::asset('public/js/nicepage.js') }}" defer=""></script>
-    <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
+<script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
+<script class="u-script" type="text/javascript" src="js/nicepage.js" defer=""></script>
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     

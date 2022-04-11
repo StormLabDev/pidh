@@ -7,11 +7,11 @@
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Page accueil</title>
-    <link rel="stylesheet" href="{{ URL::asset('public/css/nicepage.css') }}" media="screen">
-    <link rel="stylesheet" href="{{ URL::asset('public/css/Page-accueil.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ URL::asset('css/Page-accueil.css') }}" media="screen">
 
-    <script class="u-script" type="text/javascript" src="{{ URL::asset('public/js/jquery.js') }}" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{{ URL::asset('public/js/nicepage.js') }}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{ URL::asset('js/jquery.js') }}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{ URL::asset('js/nicepage.js') }}" defer=""></script>
     <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Berkshire+Swash:400">
