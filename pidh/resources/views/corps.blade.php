@@ -150,6 +150,26 @@
         </a>
       </div>
     </section>
+    <section class="u-align-center u-clearfix u-section-2" id="sec-49bf">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-align-left u-expanded-width-sm u-expanded-width-xs u-video u-video-1">
+          <div class="embed-responsive embed-responsive-1">
+            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/cAViU7acf3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+        <p class="u-text u-text-1">International Law | Diplomatic Immunity Explained | Vienna Convention | Lex Animata | Hesham Elrafei </p>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-2" id="sec-49bf">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-align-left u-expanded-width-sm u-expanded-width-xs u-video u-video-1">
+          <div class="embed-responsive embed-responsive-1">
+            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/uaqNwrzSPyw" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+        <p class="u-text u-text-1">حصانة الحقيبة الدبلوماسية التي لا يمكن تفتيشها. أ.د. عامر فاخوري. inviolability of diplomatic bag </p>
+      </div>
+    </section>
     <section class="u-align-center u-clearfix u-gradient u-section-3" id="carousel_e23a">
       <div class="u-list u-list-1">
         <div class="u-repeater u-repeater-1">
@@ -180,7 +200,7 @@
         <p class="u-small-text u-text u-text-variant u-text-1">
           <span style="font-size: 1.25rem; font-weight: 700;">Copyright pidh-humanrights.org</span>
           <br>
-          <br>Vietata la copia e la riproduzione dei contenuti del sito. Pagina ufficiale della segreteria dei diritti umani del parlmaneto internazionale , ufficio del ambasciatore , Massimo Pultrone PIDH<br>
+          <br>Vietata la copia e la riproduzione dei contenuti del sito. Pagina ufficiale della segreteria dei diritti umani del parlamento internazionale , ufficio dell'ambasciatore , Massimo Pultrone PIDH<br>
           <br>La copie et la reproduction du contenu du site sont interdites. Page officielle du secrétariat aux droits de l'homme du parlement international, bureau de l'ambassadeur, Massimo Pultrone PIDH<br>
           <br>The copying and reproduction of the contents of the site is prohibited. Official page of the human rights secretariat of the international parliament, office of the ambassador, Massimo Pultrone PIDH<br>
           <br>Queda prohibida la copia y reproducción de los contenidos del sitio. Página oficial de la secretaría de derechos humanos del parlamento internacional, oficina del embajador, Massimo Pultrone PIDH<br>
@@ -189,5 +209,6 @@
         </p>
       </div>
     </footer>
+
   </body>
 </html>
