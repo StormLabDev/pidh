@@ -123,18 +123,18 @@
       <div class="u-clearfix u-image u-sheet u-image-1" data-image-width="1280" data-image-height="960">
         <div class="u-container-style u-expanded-width-xs u-group u-opacity u-opacity-40 u-palette-1-base u-group-1">
           <div class="u-container-layout u-container-layout-1">
-            <h1 class="u-align-center u-text u-text-1"> {{ __('Contacter') }}</h1>
+            <h1 class="u-align-center u-text u-text-1"> Nous Contacter</h1>
             <div class="u-expanded-width-xs u-list u-list-1">
               <div class="u-repeater u-repeater-1">
                 <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-1">
-                  <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-file-icon u-icon u-icon-circle u-text-custom-color-2 u-icon-1"><img src="{{ URL::asset('images/29.png') }}" alt=""></span>
+                  <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-file-icon u-icon u-text-custom-color-2 u-icon-1"><img src="{{ URL::asset('images/32.png') }}" alt=""></span>
                     <h5 class="u-custom-font u-font-montserrat u-text u-text-2"> Site Internet</h5>
                     <p class="u-custom-font u-font-montserrat u-text u-text-3">www.pidh-humanrights.org<br>
                     </p>
                   </div>
                 </div>
                 <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-2">
-                  <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9f82"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-9f82" style="enable-background:new 0 0 512 512;"><g><g><path d="M507.49,101.721L352.211,256L507.49,410.279c2.807-5.867,4.51-12.353,4.51-19.279V121    C512,114.073,510.297,107.588,507.49,101.721z"></path>
+                  <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-icon u-text-palette-1-base u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9f82"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-9f82" style="enable-background:new 0 0 512 512;"><g><g><path d="M507.49,101.721L352.211,256L507.49,410.279c2.807-5.867,4.51-12.353,4.51-19.279V121    C512,114.073,510.297,107.588,507.49,101.721z"></path>
 </g>
 </g><g><g><path d="M467,76H45c-6.927,0-13.412,1.703-19.279,4.51l198.463,197.463c17.548,17.548,46.084,17.548,63.632,0L486.279,80.51    C480.412,77.703,473.927,76,467,76z"></path>
 </g>
@@ -145,7 +145,17 @@
 </g></svg></span>
                     <h5 class="u-custom-font u-font-montserrat u-text u-text-4">Email</h5>
                     <p class="u-custom-font u-font-montserrat u-text u-text-5">
-                      <a href="mailito:ambassadeur@pidh.ch" class="u-active-none u-border-1 u-border-palette-2-base u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-black u-btn-1">ambassadeur@pidh.ch<br>
+                      <a href="mailto:ambassadeur@pidh.ch" class="u-active-none u-border-1 u-border-palette-2-base u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-black u-btn-1">ambassadeur@pidh.ch<br>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="u-align-center u-container-style u-list-item u-repeater-item u-white u-list-item-3">
+                  <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-file-icon u-icon u-icon-3"><img src="{{ URL::asset('images/145807.png') }}" alt=""></span>
+                    <h5 class="u-custom-font u-font-montserrat u-text u-text-6">Linkedin<br>
+                    </h5>
+                    <p class="u-custom-font u-font-montserrat u-text u-text-7">
+                      <a href="https://www.linkedin.com/in/massimo-pultrone-987b431ba/" target="_blank" class="u-active-none u-border-1 u-border-palette-2-base u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-black u-btn-2">Massimo Pultrone<br>
                       </a>
                     </p>
                   </div>

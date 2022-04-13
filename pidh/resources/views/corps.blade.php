@@ -142,7 +142,7 @@
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-align-left u-expanded-width-sm u-expanded-width-xs u-video u-video-1">
           <div class="embed-responsive embed-responsive-1">
-            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/BV7nZI7NxSA?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/P6d5tvDOu30" frameborder="0" allowfullscreen=""></iframe>
           </div>
         </div>
         <p class="u-text u-text-1">{{ __('Corp3') }} </p>
@@ -154,20 +154,20 @@
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-align-left u-expanded-width-sm u-expanded-width-xs u-video u-video-1">
           <div class="embed-responsive embed-responsive-1">
-            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/cAViU7acf3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen=""></iframe>
+            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/_sbd8ixGw2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen=""></iframe>
           </div>
         </div>
-        <p class="u-text u-text-1">International Law | Diplomatic Immunity Explained | Vienna Convention | Lex Animata | Hesham Elrafei </p>
+        <p class="u-text u-text-1">La bataille des Droits de l'Homme (Documentaire de 2009 sur les débats à l'ONU) </p>
       </div>
     </section>
     <section class="u-align-center u-clearfix u-section-2" id="sec-49bf">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-align-left u-expanded-width-sm u-expanded-width-xs u-video u-video-1">
           <div class="embed-responsive embed-responsive-1">
-            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/OW9IqfWeziA" frameborder="0" allowfullscreen=""></iframe>
+            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/42AmIO9knUQ" frameborder="0" allowfullscreen=""></iframe>
           </div>
         </div>
-        <p class="u-text u-text-1">حمعارف إعلامية - اتفاقية فيينا للعلاقات الدبلوماسية</p>
+        <p class="u-text u-text-1">Film L'histoire des droits de l'Homme</p>
       </div>
     </section>
     <section class="u-align-center u-clearfix u-gradient u-section-3" id="carousel_e23a">

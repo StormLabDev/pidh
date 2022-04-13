@@ -170,17 +170,17 @@
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-1" data-image-width="2480" data-image-height="3504">
               <div class="u-container-layout u-similar-container u-container-layout-1">
-                <h3 class="u-text u-text-default u-text-1"> {{ __('Nom1') }}</h3>
+                
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-2" data-image-width="2480" data-image-height="3504">
               <div class="u-container-layout u-similar-container u-container-layout-2">
-                <h3 class="u-text u-text-default u-text-2"> {{ __('Nom2') }}</h3>
+                
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-3" data-image-width="2480" data-image-height="3504">
               <div class="u-container-layout u-similar-container u-container-layout-3">
-                <h3 class="u-text u-text-default u-text-3">{{ __('Nom3') }}</h3>
+               
               </div>
             </div>
           </div>
@@ -193,13 +193,13 @@
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-1" data-image-width="2480" data-image-height="3504">
               <div class="u-container-layout u-similar-container u-container-layout-1">
-                <h3 class="u-text u-text-default u-text-1"> {{ __('Nom4') }}<br>
+                
                 </h3>
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-2" data-image-width="2480" data-image-height="3504">
               <div class="u-container-layout u-similar-container u-container-layout-2">
-                <h3 class="u-text u-text-default u-text-2">{{ __('Nom5') }}</h3>
+                
               </div>
             </div>
           </div>
