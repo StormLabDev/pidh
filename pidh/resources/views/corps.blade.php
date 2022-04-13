@@ -164,10 +164,10 @@
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-align-left u-expanded-width-sm u-expanded-width-xs u-video u-video-1">
           <div class="embed-responsive embed-responsive-1">
-            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/uaqNwrzSPyw" frameborder="0" allowfullscreen=""></iframe>
+            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/OW9IqfWeziA" frameborder="0" allowfullscreen=""></iframe>
           </div>
         </div>
-        <p class="u-text u-text-1">حصانة الحقيبة الدبلوماسية التي لا يمكن تفتيشها. أ.د. عامر فاخوري. inviolability of diplomatic bag </p>
+        <p class="u-text u-text-1">حمعارف إعلامية - اتفاقية فيينا للعلاقات الدبلوماسية</p>
       </div>
     </section>
     <section class="u-align-center u-clearfix u-gradient u-section-3" id="carousel_e23a">
