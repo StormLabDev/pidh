@@ -100,7 +100,7 @@
                     </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/contacter">{{ __('Contacter') }}</a>
                     </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/nouvelles">{{ __('Nouvelles du monde') }}</a>
                     </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/corps">{{ __('Corps Diplomatique') }}</a>
-                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/presentation">{{ __('Présentation') }}')</a>
+                    </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/presentation">{{ __('Présentation') }}</a>
                     </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/{{ Config::get('app.locale') }}/decret">{{ __('Décret de nomination') }}</a>
                     </li></ul>
                   </div>
