@@ -145,7 +145,7 @@
 </g></svg></span>
                     <h5 class="u-custom-font u-font-montserrat u-text u-text-4">Email</h5>
                     <p class="u-custom-font u-font-montserrat u-text u-text-5">
-                      <a href="ambassadeur@pidh.ch" class="u-active-none u-border-1 u-border-palette-2-base u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-black u-btn-1">ambassadeur@pidh.ch<br>
+                      <a href="mailito:ambassadeur@pidh.ch" class="u-active-none u-border-1 u-border-palette-2-base u-btn u-button-link u-button-style u-custom-font u-font-montserrat u-hover-none u-none u-text-black u-btn-1">ambassadeur@pidh.ch<br>
                       </a>
                     </p>
                   </div>
