@@ -163,49 +163,61 @@
         </div>
       </div>
     </section>
+    <br><br>
+    
+    <section class="u-clearfix u-section-1" id="sec-b7bb">
+     <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-1">
+        <div class="u-gallery-inner u-gallery-inner-1">
+          <div class="u-effect-fade u-gallery-item" data-image-width="726" data-image-height="1024">
+            <div class="u-back-slide">
+              <img class="u-back-image u-expanded" src="../images/admiralofKentucky.jpg">
+            </div>
+            <div class="u-over-slide u-shading u-over-slide-1">
+              <h3 class="u-gallery-heading"></h3>
+              <p class="u-gallery-text"></p>
+            </div>
+          </div>
+          <div class="u-effect-fade u-gallery-item" data-image-width="1656" data-image-height="2337">
+            <div class="u-back-slide">
+              <img class="u-back-image u-expanded" src="../images/admiralofNebraska.jpg">
+            </div>
+            <div class="u-over-slide u-shading u-over-slide-2">
+              <h3 class="u-gallery-heading"></h3>
+              <p class="u-gallery-text"></p>
+            </div>
+          </div>
+          <div class="u-effect-fade u-gallery-item" data-image-width="1656" data-image-height="2337">
+            <div class="u-back-slide">
+              <img class="u-back-image u-expanded" src="../images/SOSJ.jpg">
+            </div>
+            <div class="u-over-slide u-shading u-over-slide-3">
+              <h3 class="u-gallery-heading"></h3>
+              <p class="u-gallery-text"></p>
+            </div>
+          </div>
+          <div class="u-effect-fade u-gallery-item" data-image-width="1656" data-image-height="2337">
+            <div class="u-back-slide">
+              <img class="u-back-image u-expanded" src="../images/voluntersaward.jpg">
+            </div>
+            <div class="u-over-slide u-shading u-over-slide-4">
+              <h3 class="u-gallery-heading"></h3>
+              <p class="u-gallery-text"></p>
+            </div>
+          </div>
+          <div class="u-effect-fade u-gallery-item" data-image-width="1656" data-image-height="2337">
+            <div class="u-back-slide">
+              <img class="u-back-image u-expanded" src="../images/withehouse.jpg">
+            </div>
+            <div class="u-over-slide u-shading u-over-slide-5">
+              <h3 class="u-gallery-heading"></h3>
+              <p class="u-gallery-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section class="u-clearfix u-section-2" id="sec-dec0">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-expanded-width u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-1" data-image-width="2480" data-image-height="3504">
-              <div class="u-container-layout u-similar-container u-container-layout-1">
-                
-              </div>
-            </div>
-            <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-2" data-image-width="2480" data-image-height="3504">
-              <div class="u-container-layout u-similar-container u-container-layout-2">
-                
-              </div>
-            </div>
-            <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-3" data-image-width="2480" data-image-height="3504">
-              <div class="u-container-layout u-similar-container u-container-layout-3">
-               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="u-clearfix u-section-3" id="sec-4fa1">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-expanded-width u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-1" data-image-width="2480" data-image-height="3504">
-              <div class="u-container-layout u-similar-container u-container-layout-1">
-                
-                </h3>
-              </div>
-            </div>
-            <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-2" data-image-width="2480" data-image-height="3504">
-              <div class="u-container-layout u-similar-container u-container-layout-2">
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
     
     
     <footer class="u-align-center u-clearfix u-custom-color-1 u-footer u-footer" id="sec-0154"><div class="u-clearfix u-sheet u-sheet-1">
