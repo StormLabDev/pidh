@@ -164,7 +164,7 @@
           <div class="u-carousel-inner u-gallery-inner" role="listbox">
             <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
               <div class="u-back-slide" data-image-width="310" data-image-height="163">
-                <img class="u-back-image u-expanded" src="{{ URL::asset('images/best-time-to-visit-tunisia.jpg') }}">
+                <img class="u-back-image u-expanded" src="{{ URL::asset('images/war.jpg') }}">
               </div>
               <div class="u-over-slide u-over-slide-1">
                 <h3 class="u-gallery-heading">Sample Title</h3>
@@ -173,7 +173,7 @@
             </div>
             <div class="u-carousel-item u-gallery-item u-carousel-item-2">
               <div class="u-back-slide" data-image-width="184" data-image-height="274">
-                <img class="u-back-image u-expanded" src="{{ URL::asset('images/Tunisia-Best-Wallpaper-94106.jpg') }}">
+                <img class="u-back-image u-expanded" src="{{ URL::asset('images/photohuman.jpg') }}">
               </div>
               <div class="u-over-slide u-over-slide-2">
                 <h3 class="u-gallery-heading">Sample Title</h3>
@@ -182,7 +182,7 @@
             </div>
             <div class="u-carousel-item u-gallery-item u-carousel-item-3" data-image-width="2836" data-image-height="1875">
               <div class="u-back-slide" data-image-width="385" data-image-height="131">
-                <img class="u-back-image u-expanded" src="{{ URL::asset('images/juan-ordonez-LR-kOGIgts4-unsplash.jpg') }}">
+                <img class="u-back-image u-expanded" src="{{ URL::asset('images/38434623-0.jpeg') }}">
               </div>
               <div class="u-over-slide u-over-slide-3">
                 <h3 class="u-gallery-heading">Sample Title</h3>
@@ -216,13 +216,13 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
           </a>
           <ol class="u-carousel-thumbnails u-spacing-10 u-carousel-thumbnails-1">
             <li class="u-active u-carousel-thumbnail u-carousel-thumbnail-1" data-u-target="#carousel-e131" data-u-slide-to="0">
-              <img class="u-carousel-thumbnail-image u-image" src="{{ URL::asset('images/best-time-to-visit-tunisia.jpg') }}">
+              <img class="u-carousel-thumbnail-image u-image" src="{{ URL::asset('images/war.jpg') }}">
             </li>
             <li class="u-carousel-thumbnail u-carousel-thumbnail-2" data-u-target="#carousel-e131" data-u-slide-to="1">
-              <img class="u-carousel-thumbnail-image u-image" src="{{ URL::asset('images/Tunisia-Best-Wallpaper-94106.jpg') }}">
+              <img class="u-carousel-thumbnail-image u-image" src="{{ URL::asset('images/photohuman.jpg') }}">
             </li>
             <li class="u-carousel-thumbnail u-carousel-thumbnail-3" data-u-target="#carousel-e131" data-u-slide-to="2">
-              <img class="u-carousel-thumbnail-image u-image" src="{{ URL::asset('images/juan-ordonez-LR-kOGIgts4-unsplash.jpg') }}">
+              <img class="u-carousel-thumbnail-image u-image" src="{{ URL::asset('images/38434623-0.jpeg') }}">
             </li>
           </ol>
         </div>
