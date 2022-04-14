@@ -12,7 +12,6 @@
 
     <script class="u-script" type="text/javascript" src="{{ URL::asset('js/jquery.js') }}" defer=""></script>
     <script class="u-script" type="text/javascript" src="{{ URL::asset('js/nicepage.js') }}" defer=""></script>
-    <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Berkshire+Swash:400">
     
@@ -59,6 +58,8 @@
                 </div>
               </div>
             </div>
+            <h6 class="u-align-center u-custom-font u-text u-text-custom-color-4 u-text-1"> {{ __('Nav1') }}</h6>
+
           </div>
           
           
@@ -288,11 +289,11 @@
         <p class="u-small-text u-text u-text-variant u-text-1">
           <span style="font-size: 1.25rem; font-weight: 700;">Copyright pidh-humanrights.org</span>
           <br>
-          <br>Vietata la copia e la riproduzione dei contenuti del sito. Pagina ufficiale della segreteria dei diritti umani del parlamento internazionale , ufficio dell'ambasciatore , Massimo Pultrone PIDH<br>
-          <br>La copie et la reproduction du contenu du site sont interdites. Page officielle du secrétariat aux droits de l'homme du parlement international, bureau de l'ambassadeur, Massimo Pultrone PIDH<br>
-          <br>The copying and reproduction of the contents of the site is prohibited. Official page of the human rights secretariat of the international parliament, office of the ambassador, Massimo Pultrone PIDH<br>
-          <br>Queda prohibida la copia y reproducción de los contenidos del sitio. Página oficial de la secretaría de derechos humanos del parlamento internacional, oficina del embajador, Massimo Pultrone PIDH<br>
-          <br>ييحظر نسخ واستنساخ محتويات الموقع. الصفحة الرسمية لأمانة حقوق الإنسان بالبرلمان الدولي ، مكتب السفير ماسيمو بولتروني PIDH<br>
+          <br>Vietata la copia e la riproduzione dei contenuti del sito. Pagina ufficiale della segreteria dei diritti umani del parlamento internazionale , ufficio dell'ambasciatore , Massimo Pultrone P.I.D.H.<br>
+          <br>La copie et la reproduction du contenu du site sont interdites. Page officielle du secrétariat aux droits de l'homme du parlement international, bureau de l'ambassadeur, Massimo Pultrone P.I.D.H.<br>
+          <br>The copying and reproduction of the contents of the site is prohibited. Official page of the human rights secretariat of the international parliament, office of the ambassador, Massimo Pultrone P.I.D.H.<br>
+          <br>Queda prohibida la copia y reproducción de los contenidos del sitio. Página oficial de la secretaría de derechos humanos del parlamento internacional, oficina del embajador, Massimo Pultrone P.I.D.H.<br>
+          <br>ييحظر نسخ واستنساخ محتويات الموقع. الصفحة الرسمية لأمانة حقوق الإنسان بالبرلمان الدولي ، مكتب السفير ماسيمو بولتروني P.I.D.H.<br>
           <br>
         </p>
       </div>
