@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Galerie">
     <meta name="description" content="">
-    <meta name="robots" content="noindex">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
+
     <title>{{ __('Galerie') }}</title>
     <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
     <link rel="stylesheet" href="{{ URL::asset('css/Galerie.css') }}" media="screen">
@@ -16,12 +15,7 @@
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
         
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "",
-		"logo": "images/stemmapidh-23-1920w.webp"
-}</script>
+
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="{{ __('Galerie') }}">
     <meta property="og:type" content="website">

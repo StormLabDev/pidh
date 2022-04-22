@@ -3,7 +3,6 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
     <title>{{ __('Déclaration universelle') }}</title>
     <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
 <link rel="stylesheet" href="{{ URL::asset('css/Déclaration-universelle.css') }}" media="screen">

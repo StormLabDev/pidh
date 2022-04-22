@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="description" content="">
-    <meta name="robots" content="noindex">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>{{ __('Présentation') }}</title>
 
@@ -13,20 +12,11 @@
 
 <script class="u-script" type="text/javascript" src="{{ URL::asset('js/jquery.js') }}" defer=""></script>
 <script class="u-script" type="text/javascript" src="{{ URL::asset('js/nicepage.js') }}" defer=""></script>
-    <meta name="generator" content="Nicepage 4.8.2, nicepage.com">
+
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     
     
-    
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "",
-		"logo": "images/stemmapidh-23-1920w.webp"
-}</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:type" content="website">
   </head>
@@ -156,6 +146,9 @@
           <br>
           <br>{{ __('Pres6') }}
         </p>
+
+        <p class="u-text u-text-1">{{ __('Corp3') }}         <a href="{{ URL::asset('files/pidh-francese-111.pdf') }}" class="u-border-none u-btn u-button-style u-file-link u-palette-3-base u-btn-1"><span class="u-file-icon u-icon"><img src="{{ URL::asset('images/899796.png') }}" alt=""></span>&nbsp;{{ __('Corp6') }} </a></p>
+       
       </div>
     </section>
     <section class="u-align-center u-clearfix u-section-3" id="sec-be11">
