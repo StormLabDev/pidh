@@ -147,7 +147,7 @@
           <br>{{ __('Pres6') }}
         </p>
 
-        <p class="u-text u-text-1">{{ __('Corp3') }}         <a href="{{ URL::asset('files/pidh-francese-111.pdf') }}" class="u-border-none u-btn u-button-style u-file-link u-palette-3-base u-btn-1"><span class="u-file-icon u-icon"><img src="{{ URL::asset('images/899796.png') }}" alt=""></span>&nbsp;{{ __('Corp6') }} </a></p>
+        <p class="u-text u-text-1">{{ __('Pres7') }}         <a href="{{ URL::asset('files/pidh-francese-111.pdf') }}" class="u-border-none u-btn u-button-style u-file-link u-palette-3-base u-btn-1"><span class="u-file-icon u-icon"><img src="{{ URL::asset('images/899796.png') }}" alt=""></span>&nbsp;{{ __('Corp6') }} </a></p>
        
       </div>
     </section>
