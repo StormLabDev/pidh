@@ -299,6 +299,15 @@
               <p class="u-gallery-text"></p>
             </div>
           </div>
+          <div class="u-effect-fade u-gallery-item" data-image-width="1656" data-image-height="2337">
+            <div class="u-back-slide">
+              <img class="u-back-image u-expanded" src="../images/titologuinea.jpg">
+            </div>
+            <div class="u-over-slide u-shading u-over-slide-5">
+              <h3 class="u-gallery-heading"></h3>
+              <p class="u-gallery-text"></p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
