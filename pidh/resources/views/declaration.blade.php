@@ -230,17 +230,18 @@
         <p class="u-align-justify u-custom-font u-font-montserrat u-text u-text-67">{{ __('Decl36') }}<br>
         </p>
       </div>
-      
     </section>
-    
+
     <section class="u-clearfix u-section-3" id="sec-2e7d">
       <div class="u-clearfix u-sheet u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-sm u-sheet-1">
         <p class="u-custom-font u-font-montserrat u-text u-text-1">{{ __('Decl37') }}<br><br><br>
         </p>
+        <p class="u-text u-text-1"><b>LA CHARTE ARABE DES DROITS DE L'HOMME DE 2004</b>         <a href="{{ URL::asset('files/charteArabe.pdf') }}" class="u-border-none u-btn u-button-style u-file-link u-palette-3-base u-btn-1"><span class="u-file-icon u-icon"><img src="{{ URL::asset('images/899796.png') }}" alt=""></span>&nbsp;{{ __('Corp6') }} </a></p>
+              <br>
         <img class="u-image u-image-default u-image-1" src="{{ URL::asset('images/4528135-21.jpg') }}" alt="" data-image-width="2000" data-image-height="2000">
       </div>
     </section>
-   
+
     
     
     <footer class="u-align-center u-clearfix u-custom-color-1 u-footer u-footer" id="sec-0154"><div class="u-clearfix u-sheet u-sheet-1">
