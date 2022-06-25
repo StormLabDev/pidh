@@ -185,6 +185,7 @@
       </div>
     </section>
 
+    <!--
     <section class="u-align-center u-clearfix u-section-2" id="sec-abb4">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-custom-font u-font-montserrat u-text u-text-default u-title u-text-1">Perché il blocco del grano è un vero crimine di guerra dei russi</h2>
@@ -194,7 +195,7 @@
 
       </div>
     </section>
-
+-->
     
     
     <footer class="u-align-center u-clearfix u-custom-color-1 u-footer u-footer" id="sec-0154"><div class="u-clearfix u-sheet u-sheet-1">
