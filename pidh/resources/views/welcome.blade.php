@@ -285,6 +285,7 @@
           <br>Queda prohibida la copia y reproducción de los contenidos del sitio. Página oficial de la secretaría de derechos humanos del parlamento internacional, oficina del embajador, Massimo Pultrone P.I.D.H.<br>
           <br>ييحظر نسخ واستنساخ محتويات الموقع. الصفحة الرسمية لأمانة حقوق الإنسان بالبرلمان الدولي ، مكتب السفير ماسيمو بولتروني P.I.D.H.<br>
           <br>
+          <span><a href="/{{ Config::get('app.locale') }}/credits">Credits</a></span>
         </p>
       </div>
     </footer>

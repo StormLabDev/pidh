@@ -51,7 +51,12 @@ Route::get('/decret', function () {
 
 Route::get('/cookie', function () {
     return view('cookie');
-})->middleware('setLocale')->name('cookie');  
+})->middleware('setLocale')->name('cookie'); 
+
+Route::get('/credits', function () {
+    return view('credits');
+})->middleware('setLocale')->name('credits');  
+
 
 
 Route::prefix('{locale}')->group(function () {
@@ -93,7 +98,12 @@ Route::prefix('{locale}')->group(function () {
 
     Route::get('/cookie', function () {
         return view('cookie');
-    })->middleware('setLocale')->name('cookie');  
+    })->middleware('setLocale')->name('cookie');
+    
+    Route::get('/credits', function () {
+        return view('credits');
+    })->middleware('setLocale')->name('credits');  
+    
 
 });
 
