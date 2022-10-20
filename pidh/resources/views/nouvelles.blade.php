@@ -185,17 +185,6 @@
       </div>
     </section>
 
-    <!--
-    <section class="u-align-center u-clearfix u-section-2" id="sec-abb4">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-custom-font u-font-montserrat u-text u-text-default u-title u-text-1">Perché il blocco del grano è un vero crimine di guerra dei russi</h2>
-        <img src="{{ URL::asset('images/grano.jpg') }}" style="width:70%" alt="">
-        <p class="u-align-justify u-custom-font u-font-montserrat u-text u-text-2"><b>L’Africa è "ostaggio" della guerra "coloniale" intrapresa dalla Russia in Ucraina</b>, che ha portato a carenze alimentari globali e a timori di carestia in tutto il continente africano. Lo ha affermato il presidente ucraino, Volodymyr Zelensky, spiegando che Kiev è impegnata in "negoziati complessi" per sbloccare i cereali intrappolati nei suoi porti del Mar Nero a seguito del blocco navale di Mosca. “Questa guerra – ha detto il presidente ucraino intervenendo all'Unione Africana – può sembrare molto lontana a voi e ai vostri Paesi. Ma i prezzi dei generi alimentari che stanno crescendo catastroficamente hanno già portato (la guerra) nelle case di milioni di famiglie africane. L’ingiusto livello dei prezzi dei generi alimentari, provocato dalla guerra russa, si fa sentire dolorosamente in tutti i continenti", ha aggiunto. "Sfortunatamente, questo può essere un problema particolare per i vostri Paesi". Zelensky ha ammesso che malgrado l’Ucraina stesse cercando di liberare i suoi porti, "non ci sono stati ancora progressi perché non è stato ancora trovato alcuno strumento reale per garantire che la Russia non li attacchi di nuovo. Ecco perché la crisi alimentare nel mondo continuerà finché questa guerra coloniale continuerà".</p>
-        <p class="u-align-justify u-custom-font u-font-montserrat u-text u-text-2"><b>Al discorso di Zelensky all'Unione Africana erano stati invitati 55 capi di Stato</b>, ma solo quattro di loro hanno partecipato. Il resto dei paesi ha inviato rappresentanti. I Paesi africani sono stati fin dall'inizio divisi nella loro risposta alla guerra della Russia in Ucraina. A marzo, 17  stati si sono infatti astenuti in un voto delle Nazioni Unite per condannare l'invasione. Oggi, però, la guerra sta avendo conseguenze anche sulle loro popolazioni. Lunedì il presidente dell'Unione Africana Macky Sall ha ringraziato Zelensky per essersi rivolto loro. "L'Africa – ha detto – resta impegnata nel rispettare le regole del diritto internazionale, la risoluzione pacifica dei conflitti e la libertà di commercio". All'inizio di giugno, Sall ha tenuto colloqui con il presidente russo Vladimir Putin dicendo al capo del Cremlino che i Paesi africani sono vittime innocenti della guerra in Ucraina e che la Russia dovrebbe contribuire ad alleviare le loro sofferenze.</p>
-
-      </div>
-    </section>
--->
     
     
     <footer class="u-align-center u-clearfix u-custom-color-1 u-footer u-footer" id="sec-0154"><div class="u-clearfix u-sheet u-sheet-1">
