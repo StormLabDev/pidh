@@ -136,7 +136,7 @@
         </div>
       </section>
       
-      <section class="u-align-center u-clearfix u-section-7" id="sec-ec63">
+      <section class="u-align-center u-clearfix u-section-7" id="sec2">
         <div class="u-clearfix u-sheet u-sheet-1">
           <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-show-text-on-hover u-gallery-1">
             <div class="u-gallery-inner u-gallery-inner-1">
