@@ -110,9 +110,107 @@
           
         </div>
       </div></header> 
+
+      
+      <section class="u-align-center u-clearfix u-section-2" id="sec-abb4">
+        <div class="u-clearfix u-sheet u-sheet-1">
+          <h1 class="u-custom-font u-font-montserrat u-text u-text-default u-title u-text-1">{{ __('Nouvelles du monde') }}</h1>
+          <p class="u-align-justify u-custom-font u-font-montserrat u-text u-text-5">{{ __('Nov4') }}<br>
+          </p>
+          <p class="u-align-left u-custom-font u-font-montserrat u-text u-text-6">{{ __('Nov5') }}
+          </p>
+          <p class="u-align-justify u-custom-font u-font-montserrat u-text u-text-7">{{ __('Nov6') }}<br>
+          </p>
+
+          <p class="u-align-justify u-custom-font u-font-montserrat u-text u-text-9">{{ __('Nov7') }} <br>
+          </p>
+
+          <p class="u-align-justify u-custom-font u-font-montserrat u-text u-text-11">{{ __('Nov8') }} <br>
+          </p>
+
+          <p class="u-align-justify u-custom-font u-font-montserrat u-text u-text-13">{{ __('Nov9') }} <br>
+          </p>
+          <p class="u-align-justify u-custom-font u-font-montserrat u-text u-text-15">{{ __('Nov10') }} <br>
+          </p>
+          
+        </div>
+      </section>
+      
+      <section class="u-align-center u-clearfix u-section-7" id="sec-ec63">
+        <div class="u-clearfix u-sheet u-sheet-1">
+          <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-show-text-on-hover u-gallery-1">
+            <div class="u-gallery-inner u-gallery-inner-1">
+              <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1200" data-image-height="1600">
+                  <img class="u-back-image u-expanded" src="{{ URL::asset('images/migranti1.JPG') }}">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-1">
+                  <h3 class="u-gallery-heading"></h3>
+                  <p class="u-gallery-text"></p>
+                </div>
+              </div>
+              <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="640" data-image-height="640">
+                  <img class="u-back-image u-expanded" src="{{ URL::asset('images/migranti2.jpg') }}">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-2">
+                  <h3 class="u-gallery-heading"></h3>
+                  <p class="u-gallery-text"></p>
+                </div>
+              </div>
+              <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1600" data-image-height="1200">
+                  <img class="u-back-image u-expanded" src="{{ URL::asset('images/migranti3.jpg') }}">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-3">
+                  <h3 class="u-gallery-heading"></h3>
+                  <p class="u-gallery-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-clearfix u-sheet u-sheet-1">
+          <div class="u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
+            <div class="u-gutter-0 u-layout">
+              <div class="u-layout-row">
+                <div class="u-size-30">
+                  <div class="u-layout-col">
+                    <div class="u-align-left u-container-style u-grey-5 u-layout-cell u-right-cell u-size-60 u-layout-cell-1">
+                      <div class="u-container-layout u-valign-bottom u-container-layout-1">
+                        <img src="{{ URL::asset('images/guerra-11-1920w.webp') }}" alt="" class="u-expanded-width u-image u-image-default u-image-1" data-image-width="750" data-image-height="430">
+                        <p class="u-text u-text-2"> {{ __('Nov1') }} </p>
+                        <img class="u-image u-image-2" src="{{ URL::asset('images/guerra-3-1920w.jpg') }}" data-image-width="300" data-image-height="168">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="u-size-30">
+                  <div class="u-layout-col">
+                    <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-2">
+                      <div class="u-container-layout">
+                        <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-3">
+                          <span style="font-size: 1.75rem;">
+                            <span style="font-weight: 700;">{{ __('Nov3') }}</span>
+                          </span>
+                        </h4>
+                        <img class="u-image u-image-default u-image-3" src="{{ URL::asset('images/pace-1920w.jpg') }}" alt="" data-image-width="279" data-image-height="181">
+                        <img class="u-image u-image-default u-image-4" src="{{ URL::asset('images/colori-della-pace.jpg') }}" alt="" data-image-width="640" data-image-height="480">
+                        <img class="u-image u-image-default u-image-5" src="{{ URL::asset('images/fotononnabambino-1920w.jpg') }}" alt="" data-image-width="300" data-image-height="168">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+  
+            
+          </div>
+        </div>
+      </section>
     <section class="u-align-center u-clearfix u-section-1" id="sec-edf6">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-font-montserrat u-text u-text-default u-title u-text-1">{{ __('Nouvelles du monde') }}</h1>
         <div class="u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
             <div class="u-layout-row">
