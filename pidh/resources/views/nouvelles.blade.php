@@ -9,6 +9,7 @@
     <title>{{ __('Nouvelles du monde') }}</title>
     <link rel="stylesheet" href="{{ URL::asset('css/nicepage.css') }}" media="screen">
     <link rel="stylesheet" href="{{ URL::asset('css/Nouvelles-du-monde.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ URL::asset('css/galerie.css') }}" media="screen">
     <script class="u-script" type="text/javascript" src="{{ URL::asset('js/jquery.js') }}" defer=""></script>
     <script class="u-script" type="text/javascript" src="{{ URL::asset('js/nicepage.js') }}" defer=""></script>
 
@@ -111,7 +112,6 @@
         </div>
       </div></header> 
 
-      
       <section class="u-align-center u-clearfix u-section-2" id="sec-abb4">
         <div class="u-clearfix u-sheet u-sheet-1">
           <h1 class="u-custom-font u-font-montserrat u-text u-text-default u-title u-text-1">{{ __('Nouvelles du monde') }}</h1>
@@ -209,79 +209,42 @@
           </div>
         </div>
       </section>
-    <section class="u-align-center u-clearfix u-section-1" id="sec-edf6">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
-          <div class="u-gutter-0 u-layout">
-            <div class="u-layout-row">
-              <div class="u-size-30">
-                <div class="u-layout-col">
-                  <div class="u-align-left u-container-style u-grey-5 u-layout-cell u-right-cell u-size-60 u-layout-cell-1">
-                    <div class="u-container-layout u-valign-bottom u-container-layout-1">
-                      <img src="{{ URL::asset('images/guerra-11-1920w.webp') }}" alt="" class="u-expanded-width u-image u-image-default u-image-1" data-image-width="750" data-image-height="430">
-                      <p class="u-text u-text-2"> {{ __('Nov1') }} </p>
-                      <img class="u-image u-image-2" src="{{ URL::asset('images/guerra-3-1920w.jpg') }}" data-image-width="300" data-image-height="168">
-                    </div>
-                  </div>
+      <section class="u-align-center u-clearfix u-section-2" id="sec-e246">
+        <div class="u-clearfix u-sheet u-sheet-1">
+          <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-show-text-on-hover u-gallery-1">
+            <div class="u-gallery-inner u-gallery-inner-1">
+              <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1600" data-image-height="1136">
+                  <img class="u-back-image u-expanded" src="{{ URL::asset('images/war-953246_1920-41.jpg') }}">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-1">
+                  <h3 class="u-gallery-heading"></h3>
+                  <p class="u-gallery-text"></p>
                 </div>
               </div>
-              <div class="u-size-30">
-                <div class="u-layout-col">
-                  <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-2">
-                    <div class="u-container-layout">
-                      <h4 class="u-align-center u-custom-font u-font-montserrat u-text u-text-3">
-                        <span style="font-size: 1.75rem;">
-                          <span style="font-weight: 700;">{{ __('Nov3') }}</span>
-                        </span>
-                      </h4>
-                      <img class="u-image u-image-default u-image-3" src="{{ URL::asset('images/pace-1920w.jpg') }}" alt="" data-image-width="279" data-image-height="181">
-                      <img class="u-image u-image-default u-image-4" src="{{ URL::asset('images/colori-della-pace.jpg') }}" alt="" data-image-width="640" data-image-height="480">
-                      <img class="u-image u-image-default u-image-5" src="{{ URL::asset('images/fotononnabambino-1920w.jpg') }}" alt="" data-image-width="300" data-image-height="168">
-                    </div>
-                  </div>
+              <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1280" data-image-height="720">
+                  <img class="u-back-image u-expanded" src="{{ URL::asset('images/barbed-wire-6884984_1280.jpg') }}">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-2">
+                  <h3 class="u-gallery-heading"></h3>
+                  <p class="u-gallery-text"></p>
+                </div>
+              </div>
+              <div class="u-effect-fade u-gallery-item">
+                <div class="u-back-slide" data-image-width="1920" data-image-height="1280">
+                  <img class="u-back-image u-expanded" src="{{ URL::asset('images/human-rights-3805188_1920-43.jpg') }}">
+                </div>
+                <div class="u-over-slide u-shading u-over-slide-3">
+                  <h3 class="u-gallery-heading"></h3>
+                  <p class="u-gallery-text"></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <img class="u-image u-image-default u-image-6" src="{{ URL::asset('images/Vector_2697Convertito1.svg') }}" alt="" data-image-width="1600" data-image-height="889">
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-section-2" id="sec-e246">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-show-text-on-hover u-gallery-1">
-          <div class="u-gallery-inner u-gallery-inner-1">
-            <div class="u-effect-fade u-gallery-item">
-              <div class="u-back-slide" data-image-width="1600" data-image-height="1136">
-                <img class="u-back-image u-expanded" src="{{ URL::asset('images/war-953246_1920-41.jpg') }}">
-              </div>
-              <div class="u-over-slide u-shading u-over-slide-1">
-                <h3 class="u-gallery-heading"></h3>
-                <p class="u-gallery-text"></p>
-              </div>
-            </div>
-            <div class="u-effect-fade u-gallery-item">
-              <div class="u-back-slide" data-image-width="1280" data-image-height="720">
-                <img class="u-back-image u-expanded" src="{{ URL::asset('images/barbed-wire-6884984_1280.jpg') }}">
-              </div>
-              <div class="u-over-slide u-shading u-over-slide-2">
-                <h3 class="u-gallery-heading"></h3>
-                <p class="u-gallery-text"></p>
-              </div>
-            </div>
-            <div class="u-effect-fade u-gallery-item">
-              <div class="u-back-slide" data-image-width="1920" data-image-height="1280">
-                <img class="u-back-image u-expanded" src="{{ URL::asset('images/human-rights-3805188_1920-43.jpg') }}">
-              </div>
-              <div class="u-over-slide u-shading u-over-slide-3">
-                <h3 class="u-gallery-heading"></h3>
-                <p class="u-gallery-text"></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+      <br><br>
 
     
     
