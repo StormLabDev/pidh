@@ -142,7 +142,7 @@
             <div class="u-gallery-inner u-gallery-inner-1">
               <div class="u-effect-fade u-gallery-item">
                 <div class="u-back-slide" data-image-width="1200" data-image-height="1600">
-                  <img class="u-back-image u-expanded" src="{{ URL::asset('images/migranti1.JPG') }}">
+                  <img class="u-back-image u-expanded" src="{{ URL::asset('images/migranti1.jpg') }}">
                 </div>
                 <div class="u-over-slide u-shading u-over-slide-1">
                   <h3 class="u-gallery-heading"></h3>
