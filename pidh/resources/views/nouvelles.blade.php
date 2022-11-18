@@ -112,7 +112,7 @@
         </div>
       </div></header> 
 
-      <section class="u-align-center u-clearfix u-section-2" id="sec-abb4">
+      <section class="u-align-center u-clearfix u-section-2" id="sec1">
         <div class="u-clearfix u-sheet u-sheet-1">
           <h1 class="u-custom-font u-font-montserrat u-text u-text-default u-title u-text-1">{{ __('Nouvelles du monde') }}</h1>
           <p class="u-align-justify u-custom-font u-font-montserrat u-text u-text-5">{{ __('Nov4') }}<br>
